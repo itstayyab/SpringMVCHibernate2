@@ -13,7 +13,7 @@ node {
       }
    }
    stage('Results') {
-      archive 'target/*.jar'
+      archive 'target/*.war'
    }
    
    stage('Copy Artifacts') {
